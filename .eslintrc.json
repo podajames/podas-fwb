@@ -9,11 +9,12 @@
   "plugins": ["react-hooks"],
   // ...
   "rules": {
-    "react-hooks/rules-of-hooks": 2,
-    "react-hooks/exhaustive-deps": 1 ,// <--- THIS IS THE NEW RULE.
-    "env": {"browser": true,"node":true, "es6": true},
+    "react-hooks/rules-of-hooks": "2",
+    "react-hooks/exhaustive-deps": "1"// <--- THIS IS THE NEW RULE.
+
+  },
+  "env": {"browser": true,"node":true, "es6": true},
 
   "extends":["eslint:recommended","next", "next/core-web-vitals"]
-  }
   
 }
