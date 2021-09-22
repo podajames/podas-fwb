@@ -6,15 +6,17 @@
 // }
 
 {
-  // "plugins": ["react-hooks"],
-  // // ...
-  // "rules": {
-  //   "react-hooks/rules-of-hooks": "error",
-  //   "react-hooks/exhaustive-deps": "warn"// <--- THIS IS THE NEW RULE.
+  "plugins": ["react-hooks"],
+  // ...
+  "rules": {
+    "react-hooks/rules-of-hooks": "error",
+    "react-hooks/exhaustive-deps": "warn",// <--- THIS IS THE NEW RULE.
+    "env": {"browser": true,"node":true, "es6": true},
+    "extends":["eslint:recommended","next", "next/core-web-vitals"]
 
-  // },
-  "env": {"browser": true,"node":true, "es6": true},
+  }
+ 
 
-  "extends":["eslint:recommended","next", "next/core-web-vitals"]
+  
   
 }
