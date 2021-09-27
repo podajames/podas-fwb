@@ -1,6 +1,7 @@
 {
   "env": {"browser": true,"node":true, "es6": true},
   "extends": ["eslint:recommended","next", "next/core-web-vitals"],
+  
    "plugins": ["react-hooks"],
    "rules": {
     
@@ -17,3 +18,4 @@
      "jsx-a11y/no-static-element-interactions": "off"
    }
  }
+
