@@ -5,11 +5,9 @@
    "plugins": ["react-hooks"],
    "rules": {
     
-    "react-hooks/exhaustive-deps": "warn",
-   
-    //  "semi": ["error", "never"],
-     
-     "react-hooks/rules-of-hooks": "error"
+    "react-hooks/exhaustive-deps": "warn", 
+     "react-hooks/rules-of-hooks": "error",
+     "@next/next/no-document-import-in-page": "off"
      
    }
  }
